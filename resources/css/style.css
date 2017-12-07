@@ -3,6 +3,7 @@ body {
   font-family: Arial, sans-serif;
   border: 1px solid black;
   color: dimgray;
+  width: 100%;
 }
 
 .header {
@@ -302,6 +303,8 @@ body {
 
   .information-main .right-column .text {
     width: 100%;
+    margin: 0px;
+    padding-left: 16px;
   }
 
   .information-main .right-column .image-mobile img {
@@ -310,7 +313,7 @@ body {
   }
 
   .text {
-    padding: 16px;
+
   }
 
   .text .top, .text .middle, .text .bottom {
@@ -619,4 +622,8 @@ body {
   .footer {
     padding: 16px 24px;
   }
+}
+
+body {
+  margin: 0px;
 }
